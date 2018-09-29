@@ -27,7 +27,7 @@ int main()
         scanf("%d",&arr[i]);
     }
     scanf("%d",&x);
-    k=binary_search(0,n);
+    k=binary_search(0,n-1);
     if(k==-1)
         printf("Not found\n");
     else
